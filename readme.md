@@ -13,7 +13,7 @@ The idea of this example project is to gain insight into how you as a developer 
 
 The test and it's content is not a direct reflection of the work that will be undertaken at Bauer Media but is aimed as a technical screen to see how candidates solve problems.
 
-There are no enforced frameworks or tools that *have* to be used. With the idea being that candidates are to use whatever feels most comfortable.
+There are no enforced frameworks or tools that *have* to be used. With the idea being that candidates are free to use whatever feels most comfortable.
 
 When you have completed the task please zip up the entire solution, including the git folder to demonstrate check-in history, and return it to the recruitment agent.
 

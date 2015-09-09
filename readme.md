@@ -15,7 +15,7 @@ The test and it's content is not a direct reflection of the work that will be un
 
 There are no enforced frameworks or tools that *have* to be used. With the idea being that candidates are free to use whatever feels most comfortable.
 
-When you have completed the task please zip up the entire solution, including the git folder to demonstrate check-in history, and return it to the contact you hasve been given.
+When you have completed the task please zip up the entire solution, including the git folder to demonstrate check-in history, and return it to the contact you have been given.
 
 The Brief
 ------------------------

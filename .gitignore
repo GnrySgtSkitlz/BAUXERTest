@@ -116,3 +116,4 @@ License.config
 #EPiServer ignore files
 #VPP/* #ignore the sub folders under VPP
 
+.vs/config/applicationhost.config

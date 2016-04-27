@@ -1,29 +1,32 @@
-Instructions
-==============
+# Instructions #
 
-The idea of this example project is to gain insight into how you as a developer think about problem solving while accomplishing a few keys things:
+The idea of this example project is to gain insight into how you as a developer think about problem solving while demonstrating:
  
  * Application of solid principles
- 
- * A good understanding on separation of concerns without over engineering
- 
+ * A good understanding on separation of concerns without over engineering 
  * Overall approach to Unit testing
-
  * Correct use of source control
 
-The test and it's content is not a direct reflection of the work that will be undertaken at Bauer Media but is aimed as a technical screen to see how candidates solve problems.
+The test and it's content is not a direct reflection of the work that will be undertaken at Bauer Media but is a technical screen to see how candidates solve problems.
 
-There are no enforced frameworks or tools that *have* to be used. With the idea being that candidates are free to use whatever feels most comfortable.
+There are no enforced frameworks or tools that *have* to be used. Candidates are free to use whatever feels most comfortable.
 
-When you have completed the task please zip up the entire solution, including the git folder to demonstrate check-in history, and return it to the contact you have been given.
+## Submission ##
 
-The Brief
-------------------------
+When you have completed the task
+
+- Zip up the entire solution. Include the git folder to demonstrate check-in history
+- Ensure your package passes the works-on-my-machine test. 
+	- Packages requiring nuget restore are fine (and preferred)
+	- Packages that fail to run due to missing/non relative database file/paths will be at a disadvantage. 
+- Return it to the contact you have been given via email/dropbox
+
+## The Brief ##
 
 "...
 You have inherited a legacy restaurant guide application that requires some upgrades to bring it up to speed with modern techniques and practices while taking into account separation of concerns, unit testability and the ease of post deployment database tuning and optimisation. Any UI considerations are a value add, but will also be seen in a positive light..."
 
-1. Taking the legacy code in HomeController, refactor the application, shifting it to a layered architecture using the Restaurant domain model object as a base, and the provided AppData database as a data store. Use any preferred data access/ORM framework. Scope for demonstrating the following:
+1. Taking the legacy code in HomeController, refactor the application, shifting it to a layered architecture using the Restaurant domain model object as a base and the provided AppData database as a data store. Use any preferred data access/ORM framework. Scope for demonstrating the following:
   
     * Creation of a Data access layer taking into account web security best practices. Feel free to use any appropriate design patterns you feel comfortable implementing.
   
@@ -43,7 +46,7 @@ You have inherited a legacy restaurant guide application that requires some upgr
   
     * The database update MUST be implemented using a stored procedure, but can be abstracted in anyway you see fit.
 
-3. Bonus points for show-offs. Extend the /Restaurant/Edit form to include any other fields in a domain specific way, e.g. 
+3.  Bonus points for show-offs: Extend the /Restaurant/Edit form to include any other fields in a domain specific way, e.g. 
     
     * Cuisine (a dropdown list)
   
@@ -57,9 +60,9 @@ You have inherited a legacy restaurant guide application that requires some upgr
   
     * Photo upload
 
-Phone number rules 
----------------------------
-(phone numbers are assumed to be valid within Australia area code never international)
+## Phone number rules  ##
+
+ * Phone numbers are assumed to be valid within Australia area code never international
 
  * Any non-digit characters should be ignored/stripped out during parsing. 
 

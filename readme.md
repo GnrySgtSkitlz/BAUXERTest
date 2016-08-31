@@ -3,9 +3,8 @@
 The idea of this example project is to gain insight into how you as a developer think about problem solving while demonstrating:
  
  * Application of solid principles
- * A good understanding on separation of concerns without over engineering 
- * Overall approach to Unit testing
- * Correct use of source control
+ * A good understanding of separation of concerns without over engineering 
+ * Overall approach to unit testing
 
 The test and it's content is not a direct reflection of the work that will be undertaken at Bauer Media but is a technical screen to see how candidates solve problems.
 
@@ -13,7 +12,7 @@ There are no enforced frameworks or tools that *have* to be used. Candidates are
 
 ## The Brief ##
 
-> You have inherited a legacy restaurant guide application that requires some upgrades to bring it up to speed with modern techniques and practices while taking into account separation of concerns, unit testability and the ease of post deployment database tuning and optimisation. Any UI considerations are a value add, but will also be seen in a positive light
+> You have inherited a legacy restaurant guide application that requires some upgrades to bring it up to date with modern techniques and practices while taking into account separation of concerns, unit testability and the ease of post deployment database tuning and optimisation. Any UI considerations are a value add, but will also be seen in a positive light.
 
 
 1. Taking the legacy code in `HomeController`, refactor the application into a layered architecture using the `Restaurant` domain model object as a base and the provided `AppData` database as a data store. Use any preferred data access/ORM framework. Scope for demonstrating the following:
@@ -30,7 +29,7 @@ There are no enforced frameworks or tools that *have* to be used. Candidates are
 	* The phone number must be validated and stored correctly according to rules listed below. Any client side validation should not interfere with compliance to these rules. Consider unit testing this logic.   
 	* The database update **must** be implemented using a stored procedure, but can be abstracted in anyway you see fit.
 
-3.  Bonus points for show-offs: Extend the `/Restaurant/Edit` form to include any other fields in a domain specific way, e.g. 
+3.  Optional bonus points for show-offs: Extend the `/Restaurant/Edit` form to include any other fields in a domain specific way, e.g. 
     
     * Cuisine (a dropdown list)  
     * Rating field  
@@ -52,8 +51,9 @@ There are no enforced frameworks or tools that *have* to be used. Candidates are
 When you have completed the task
 
 - Zip the entire solution. 
-- Include the git folder so as to include check-in history
+- Include the `.git` folder so as to include commit history
 - Ensure your submission passes the works-on-my-machine test. 
 	- Submissions requiring nuget restore are fine (and preferred)
-	- Submissions that fail to run due to missing/non relative database paths will be at a disadvantage. 
+	- Submissions that fail to run due to missing/non relative database paths will be at a disadvantage.
 - Return it to the contact you have been given via email/dropbox/s3/etc
+- You may not have had time to modify the solution exactly as you would like. If not, include some comments about what other technical debt or architecture you would like to improve upon.
